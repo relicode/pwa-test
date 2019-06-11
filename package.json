@@ -1,0 +1,11 @@
+{
+  "name": "anssispwa.site",
+  "version": "0.0.1",
+  "main": "src/index.html",
+  "repository": "https://github.com/relicode/pwa-test",
+  "author": "Anssi Herranen <anssi.herranen@vincit.fi>",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
