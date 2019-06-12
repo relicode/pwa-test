@@ -6,11 +6,6 @@ const CACHE_NAME = 'V1'
  * Generally, we cache static resources that allow the website to run offline
  */
 self.addEventListener('install', async function() {
-  const cache = await caches.open(CACHE_NAME)
-  cache.addAll([
-    '../index.html',
-    '../css/global.css',
-    './index.js',
-  ])
+  console.log('INSTALLED ' + CACHE_NAME)
 })
 
