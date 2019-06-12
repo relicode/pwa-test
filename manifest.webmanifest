@@ -2,13 +2,13 @@
   "name": "Anssi's PWA",
   "short_name": "Anssi's PWA",
   "lang": "en-US",
-  "start_url": "https://anssispwa.site",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#ff69b4",
   "icons": [
     {
-      "src": "assets/img/icon-256x256.png",
-      "sizes": "192x192",
+      "src": "src/assets/img/icon-256x256.png",
+      "sizes": "256x256",
       "type": "image/png"
     }
   ]

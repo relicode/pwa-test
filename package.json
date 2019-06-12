@@ -6,9 +6,10 @@
   "author": "Anssi Herranen <anssi.herranen@vincit.fi>",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf dist ; parcel build src/index.html",
-    "dev": "parcel src/index.html"
+    "build": "rimraf dist ; parcel build index.html",
+    "dev": "parcel index.html"
   },
+  "dependencies": {},
   "devDependencies": {
     "@babel/preset-env": "^7.4.5",
     "@parcel/logger": "^1.11.0",
@@ -16,11 +17,15 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "cssnano": "^4.1.10",
-    "parcel-plugin-workbox": "^0.2.0",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-sw-cache": "^0.3.0",
     "postcss-modules": "^1.4.1",
     "rimraf": "^2.6.3"
   },
-  "workbox": {
-    "importScripts": ["./src/js/worker.js"]
+  "cache": {
+    "disablePlugin": false,
+    "inDev": false,
+    "strategy": "default",
+    "clearDist": true
   }
 }
