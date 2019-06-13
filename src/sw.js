@@ -14,7 +14,7 @@
           '/',
           '/index.html',
           '/assets/img/icon-256x256.png',
-          '/assets/img/icon-512x512.png',
+          '/assets/img/icon-512x512-circle.png',
           '/assets/img/unimpressed-ocelot.jpg',
           '/css/styles.css',
           '/js/index.js',
