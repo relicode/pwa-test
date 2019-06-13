@@ -2,9 +2,10 @@
 <html>
   <head>
     <title>Anssi's PWA</title>
-    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="./src/assets/img/icon-256x256.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./src/assets/img/icon-256x256.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="./assets/img/icon-256x256.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/img/icon-256x256.png">
     <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,8 +19,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
   <body>
-    <div id="content">Initial content</div>
-    <script src="./src/js/index.js"></script>
+    <div class="content" id="content">
+      <h1 class="boop">Boop the snoot</h1>
+      <img id="ocelot" class="image--full-width" src="/assets/img/unimpressed-ocelot.jpg" alt="unimpressed ocelot" />
+    </div>
+    <noscript>No javascript enabled.</noscript>
+    <script src="./js/index.js"></script>
   </body>
 </html>
 
